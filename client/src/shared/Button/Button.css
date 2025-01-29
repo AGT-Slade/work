@@ -1,0 +1,144 @@
+.custom-button {
+    display: inline-block;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+}
+
+/* Variants */
+.custom-button.primary {
+    background-color: #f7ea38;
+    color: #1a1a1a;
+}
+
+.custom-button.primary:hover {
+    background-color: #7df74d;
+    transform: translateY(-2px);
+}
+
+.custom-button.secondary {
+    background-color: #1a1a1a;
+    color: #f7ea38;
+    border: 2px solid #f7ea38;
+}
+
+.custom-button.secondary:hover {
+    color: #1a1a1a;
+    background-color: #7df74d;
+    border-color: #7df74d;
+}
+
+.custom-button.gradient {
+    background: linear-gradient(45deg, #f7ea38, #7df74d);
+    color: #1a1a1a;
+}
+
+.custom-button.gradient:hover {
+    background: linear-gradient(45deg, #7df74d, #f7ea38);
+}
+
+/* Sizes */
+.custom-button.small {
+    padding: 8px 16px;
+    font-size: 0.875rem;
+}
+
+.custom-button.medium {
+    padding: 10px 20px;
+    font-size: 1rem;
+}
+
+.custom-button.large {
+    padding: 12px 24px;
+    font-size: 1.125rem;
+}
+
+/* Animations */
+.custom-button.pulse {
+    animation: pulse 2s infinite;
+}
+
+.custom-button.shake:hover {
+    animation: shake 0.5s;
+}
+
+.custom-button.glow {
+    animation: glow 2s infinite;
+}
+
+/* Animation Keyframes */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+@keyframes shake {
+    0%, 100% { transform: translateX(0); }
+    25% { transform: translateX(-5px); }
+    75% { transform: translateX(5px); }
+}
+
+@keyframes glow {
+    0% { box-shadow: 0 0 5px rgba(247, 234, 56, 0.5); }
+    50% { box-shadow: 0 0 20px rgba(247, 234, 56, 0.8); }
+    100% { box-shadow: 0 0 5px rgba(247, 234, 56, 0.5); }
+}
+
+
+/* Previous CSS remains the same, adding new effects: */
+
+/* Hover Effects */
+.custom-button.ripple:hover {
+    background-position: right center;
+    background-size: 200% auto;
+    animation: ripple 0.8s linear;
+}
+
+.custom-button.shine:hover::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+        120deg,
+        transparent,
+        rgba(255, 255, 255, 0.4),
+        transparent
+    );
+    animation: shine 0.7s;
+}
+
+.custom-button.bounce:hover {
+    animation: bounce 0.5s;
+}
+
+.custom-button.rotate:hover {
+    animation: rotate 0.5s;
+}
+
+/* New Animation Keyframes */
+@keyframes ripple {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); opacity: 0.8; }
+    100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes shine {
+    100% { left: 100%; }
+}
+
+@keyframes bounce {
+    0%, 100% { transform: translateY(0); }
+    50% { transform: translateY(-10px); }
+}
+
+@keyframes rotate {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
