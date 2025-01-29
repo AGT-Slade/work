@@ -1,0 +1,34 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1b5848b4.css",
+    "main.js": "/static/js/main.fac567ed.js",
+    "static/js/488.5dc00adb.chunk.js": "/static/js/488.5dc00adb.chunk.js",
+    "static/media/team2.png": "/static/media/team2.6cb6abe6c732d886c520.png",
+    "static/media/mithril_token_logo.png": "/static/media/mithril_token_logo.b7d45ef15342075f1ed4.png",
+    "static/media/team3.png": "/static/media/team3.0371cd4c06bc1ba82b3c.png",
+    "static/media/team1.png": "/static/media/team1.245f44ad0780cb4f37e6.png",
+    "static/media/serum-logo.png": "/static/media/serum-logo.a2594774e311bb37ce36.png",
+    "static/media/pancakeswap-logo.png": "/static/media/pancakeswap-logo.129298fe91fceff60509.png",
+    "static/media/twitter-icon.png": "/static/media/twitter-icon.89d4a3b71f7ba90a3af9.png",
+    "static/media/header-wallpaper.jpg": "/static/media/header-wallpaper.36050690319fa9c87a53.jpg",
+    "static/media/hero-wallpaper.jpg": "/static/media/hero-wallpaper.d1519a56ad693d69dab1.jpg",
+    "static/media/linkedin-icon.png": "/static/media/linkedin-icon.6ac77341c7a1f1743ba6.png",
+    "static/media/chainlink-logo.png": "/static/media/chainlink-logo.a36a2e78560b7adb1d33.png",
+    "static/media/stepn-logo.png": "/static/media/stepn-logo.4603ca5e1530a1fcc20a.png",
+    "static/media/magic-eden-logo.png": "/static/media/magic-eden-logo.86aec796abc2584912e7.png",
+    "static/media/polygon-logo.png": "/static/media/polygon-logo.70a5cf812c6bcb161660.png",
+    "static/media/robinhood-logo.png": "/static/media/robinhood-logo.a7475c6ec03aea55358a.png",
+    "static/media/coinbase-logo.png": "/static/media/coinbase-logo.f5d5f8aed00667335726.png",
+    "static/media/binance-logo.png": "/static/media/binance-logo.3d8286e0a63ca18258d8.png",
+    "static/media/solana-logo.png": "/static/media/solana-logo.d9c22220c898a88d32d4.png",
+    "static/media/raydium-logo.png": "/static/media/raydium-logo.9a65627fc8af47bbd542.png",
+    "index.html": "/index.html",
+    "main.1b5848b4.css.map": "/static/css/main.1b5848b4.css.map",
+    "main.fac567ed.js.map": "/static/js/main.fac567ed.js.map",
+    "488.5dc00adb.chunk.js.map": "/static/js/488.5dc00adb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b5848b4.css",
+    "static/js/main.fac567ed.js"
+  ]
+}
